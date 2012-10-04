@@ -24,7 +24,7 @@ module.exports = function( _, anvil ) {
 					function( err ) {
 						if( err ) {
 							anvil.log.error( "Error compiling '" + file.fullPath + "/" + file.name + "' : " + err );
-							anvil.events.raise( "build.stop", "compiler error" );
+							anvil.raise( "build.stop", "compiler error" );
 						} else {
 							file.name = rename;
 							done();
