@@ -4,7 +4,7 @@ module.exports = function( _, anvil ) {
 		anvil.config[ "anvil.transform" ].compilers[ ext ] = instance;
 	};
 
-	return anvil.plugin( {
+	anvil.plugin( {
 		name: "anvil.transform",
 		activity: "compile",
 		config: { compilers: {} },
