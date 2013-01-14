@@ -1,7 +1,10 @@
 module.exports = function( _, anvil ) {
 
-	anvil.addCompiler = function( ext, instance ) {
+	anvil.addCompiler = function( ext, instance, mimeType ) {
 		anvil.config[ "anvil.transform" ].compilers[ ext ] = instance;
+		if( mimeType ) {
+			anvil.http.addCompiler( ext, mimeType, instance.compile );
+		}
 	};
 
 	anvil.plugin( {
