@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/src/nvm/v0.8.14/bin/node',
+1 verbose cli   '/src/nvm/v0.8.14/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose publish [ '.' ]
+5 verbose read json /git/js/anvil/anvil.transform/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/alex/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz
+14 verbose folder .
+15 info prepublish anvil.transform@0.1.0
+16 silly lockFile e3ad87cf-00751-0-9529872015118599-tmp-tgz /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz
+17 verbose lock /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz /Users/alex/.npm/e3ad87cf-00751-0-9529872015118599-tmp-tgz.lock
+18 silly lockFile e3ad87cf-00751-0-9529872015118599-tmp-tgz /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz
+19 verbose tar unpack /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/tmp.tgz
+20 silly lockFile c5b4f650-00751-0-9529872015118599-package /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package
+21 verbose lock /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package /Users/alex/.npm/c5b4f650-00751-0-9529872015118599-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry lib/transform.js
+27 silly gunzTarPerm extractEntry LICENSE-GPL
+28 silly gunzTarPerm extractEntry LICENSE-MIT
+29 verbose read json /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package/package.json
+30 silly lockFile c5b4f650-00751-0-9529872015118599-package /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package
+31 verbose from cache /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package/package.json
+32 verbose tar pack [ '/Users/alex/.npm/anvil.transform/0.1.0/package.tgz',
+32 verbose tar pack   '/var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package' ]
+33 verbose tarball /Users/alex/.npm/anvil.transform/0.1.0/package.tgz
+34 verbose folder /var/folders/1d/p2zgg8jd7716_93v7b1vz68m0000gn/T/npm-10845/1358139600751-0.9529872015118599/package
+35 silly lockFile 7beb1c11-nvil-transform-0-1-0-package-tgz /Users/alex/.npm/anvil.transform/0.1.0/package.tgz
+36 verbose lock /Users/alex/.npm/anvil.transform/0.1.0/package.tgz /Users/alex/.npm/7beb1c11-nvil-transform-0-1-0-package-tgz.lock
+37 silly lockFile 7beb1c11-nvil-transform-0-1-0-package-tgz /Users/alex/.npm/anvil.transform/0.1.0/package.tgz
+38 silly lockFile 62ff816b-pm-anvil-transform-0-1-0-package /Users/alex/.npm/anvil.transform/0.1.0/package
+39 verbose lock /Users/alex/.npm/anvil.transform/0.1.0/package /Users/alex/.npm/62ff816b-pm-anvil-transform-0-1-0-package.lock
+40 silly lockFile 62ff816b-pm-anvil-transform-0-1-0-package /Users/alex/.npm/anvil.transform/0.1.0/package
+41 verbose tar unpack /Users/alex/.npm/anvil.transform/0.1.0/package.tgz
+42 silly lockFile 62ff816b-pm-anvil-transform-0-1-0-package /Users/alex/.npm/anvil.transform/0.1.0/package
+43 verbose lock /Users/alex/.npm/anvil.transform/0.1.0/package /Users/alex/.npm/62ff816b-pm-anvil-transform-0-1-0-package.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry lib/transform.js
+49 silly gunzTarPerm extractEntry LICENSE-GPL
+50 silly gunzTarPerm extractEntry LICENSE-MIT
+51 verbose read json /Users/alex/.npm/anvil.transform/0.1.0/package/package.json
+52 silly lockFile 62ff816b-pm-anvil-transform-0-1-0-package /Users/alex/.npm/anvil.transform/0.1.0/package
+53 silly shasum updated bytes 7756
+54 info shasum 3265f525ba51e564dce3928f52a3f425d1829105
+54 info shasum /Users/alex/.npm/anvil.transform/0.1.0/package.tgz
+55 verbose from cache /Users/alex/.npm/anvil.transform/0.1.0/package/package.json
+56 verbose chmod /Users/alex/.npm/anvil.transform/0.1.0/package.tgz 644
+57 verbose chown /Users/alex/.npm/anvil.transform/0.1.0/package.tgz [ 501, 20 ]
+58 silly lockFile 3a52ce78- .
+59 silly publish { author:
+59 silly publish    { name: 'Alex Robson',
+59 silly publish      email: 'alex@sharplearningcurve.com',
+59 silly publish      url: 'http://sharplearningcurve.com' },
+59 silly publish   name: 'anvil.transform',
+59 silly publish   description: 'A core anvil extension that supports \'transpilers\'',
+59 silly publish   version: '0.1.0',
+59 silly publish   repository:
+59 silly publish    { type: 'git',
+59 silly publish      url: 'git://github.com/arobson/anvil.transform.git' },
+59 silly publish   engines: { node: '~0.8.3' },
+59 silly publish   main: './lib/transform.js',
+59 silly publish   devDependencies: { 'anvil.js': '>=0.8.5', should: '~1.1' },
+59 silly publish   optionalDependencies: {},
+59 silly publish   keywords: [ 'anvil', 'core' ],
+59 silly publish   readme: '## Anvil Transform Extension\n\nA core component of anvil and is required to function as expected.\n\n## Installation\n\nanvil will install this extension during post-install.',
+59 silly publish   readmeFilename: 'README.md',
+59 silly publish   _id: 'anvil.transform@0.1.0',
+59 silly publish   dependencies: {},
+59 silly publish   dist: { shasum: '3265f525ba51e564dce3928f52a3f425d1829105' } }
+60 verbose url raw anvil.transform
+61 verbose url resolving [ 'https://registry.npmjs.org/', './anvil.transform' ]
+62 verbose url resolved https://registry.npmjs.org/anvil.transform
+63 info trying registry request attempt 1 at 23:00:00
+64 http PUT https://registry.npmjs.org/anvil.transform
+65 http 409 https://registry.npmjs.org/anvil.transform
+66 verbose url raw anvil.transform
+67 verbose url resolving [ 'https://registry.npmjs.org/', './anvil.transform' ]
+68 verbose url resolved https://registry.npmjs.org/anvil.transform
+69 info trying registry request attempt 1 at 23:00:01
+70 http GET https://registry.npmjs.org/anvil.transform
+71 http 200 https://registry.npmjs.org/anvil.transform
+72 error publish fail Cannot publish over existing version.
+72 error publish fail Bump the 'version' field, set the --force flag, or
+72 error publish fail     npm unpublish 'anvil.transform@0.1.0'
+72 error publish fail and try again
+73 error System Darwin 12.2.0
+74 error command "/src/nvm/v0.8.14/bin/node" "/src/nvm/v0.8.14/bin/npm" "publish"
+75 error cwd /git/js/anvil/anvil.transform
+76 error node -v v0.8.14
+77 error npm -v 1.1.65
+78 error code EPUBLISHCONFLICT
+79 verbose exit [ 1, true ]
